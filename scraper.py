@@ -6,7 +6,7 @@ import re
 
 def main():
     with requests.Session() as session:
-        url = "https://en.wikipedia.org/wiki/Black_hole"
+        url = ""
        # headers = {'user-agent': }
 
         file_name = re.findall("[\-a-z]+(?=\.)", url) # type: ignore
